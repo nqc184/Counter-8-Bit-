@@ -1,0 +1,84 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+R0
+!s11f vlog 2021.2_1 2021.05, May 15 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-
+T_opt
+!s110 1789872408
+VGlj_:gi55N6E85V2Oe1Zm0
+Z2 04 13 4 work tb_full_adder fast 0
+=1-000ae431a4f1-6aaf4918-16cc2-200e
+Z3 !s124 OEM100
+o-quiet -auto_acc_if_foreign -work work
+Z4 tCvgOpt 0
+n@_opt
+Z5 OL;O;2021.2_1;73
+R1
+T_opt1
+!s110 1789872546
+VeGM_Q2=z`ILc98NYKak_m3
+R2
+=1-000ae431a4f1-6aaf49a2-3ca8e-2146
+R3
+o-quiet -auto_acc_if_foreign -work work +acc
+R4
+n@_opt1
+R5
+R1
+vfull_adder
+Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z7 !s110 1789872768
+!i10b 1
+!s100 CbjDPHU4Y<oGiMQo>9d:K0
+IMD_GSDSKFT=MeEzkV;kcY0
+S1
+R1
+w1789871500
+8full_adder.sv
+Ffull_adder.sv
+!i122 4
+L0 1 7
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z10 !s108 1789872768.000000
+!s107 tb_full_adder.sv|full_adder.sv|
+Z11 !s90 full_adder.sv|tb_full_adder.sv|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+vtb_full_adder
+R6
+R7
+!i10b 1
+!s100 j^J_ol??VgWEIhgR>5Cm^2
+I=KY1ijNGBY?U1XO3V_:2@2
+S1
+R1
+w1789872365
+8tb_full_adder.sv
+Ftb_full_adder.sv
+!i122 4
+L0 2 21
+R8
+R9
+r1
+!s85 0
+31
+R10
+Z13 !s107 tb_full_adder.sv|full_adder.sv|
+R11
+!i113 0
+R12
+R4
