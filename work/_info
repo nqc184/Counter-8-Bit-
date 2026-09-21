@@ -1,9 +1,7 @@
 m255
 K4
 z2
-Z0 !s99 nomlopt
-R0
-R0
+!s99 nomlopt
 !s11f vlog 2021.2_1 2021.05, May 15 2021
 13
 !s112 1.1
@@ -11,74 +9,158 @@ R0
 !i10e 25
 !i10f 100
 cModel Technology
-Z1 d/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-
+Z0 d/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-
 T_opt
-!s110 1789872408
-VGlj_:gi55N6E85V2Oe1Zm0
-Z2 04 13 4 work tb_full_adder fast 0
-=1-000ae431a4f1-6aaf4918-16cc2-200e
-Z3 !s124 OEM100
-o-quiet -auto_acc_if_foreign -work work
-Z4 tCvgOpt 0
-n@_opt
-Z5 OL;O;2021.2_1;73
-R1
-T_opt1
-!s110 1789872546
-VeGM_Q2=z`ILc98NYKak_m3
-R2
-=1-000ae431a4f1-6aaf49a2-3ca8e-2146
-R3
+!s110 1789877060
+V8`nmzC=?i]4>nl]P>f8o^2
+04 11 4 work tb_cla_8bit fast 0
+=1-000ae431a4f1-6aaf5b44-6ef30-4718
+!s124 OEM100
 o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2_1;73
+vcla_4bit
+Z2 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z3 !s110 1789877055
+!i10b 1
+!s100 5Sf17GXJn140G5gkV?zFS0
+II0=DedOll;]`[m18TmKIW1
+S1
+R0
+w1789875289
+8cla_4bit.sv
+Fcla_4bit.sv
+!i122 1
+L0 1 28
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2_1;73
+r1
+!s85 0
+31
+Z6 !s108 1789877055.000000
+Z7 !s107 tb_full_adder.sv|rca8.sv|full_adder.sv|cla_8bit.sv|cla_4bit.sv|assertion_cla_8bit.sv|
+Z8 !s90 assertion_cla_8bit.sv|cla_4bit.sv|cla_8bit.sv|full_adder.sv|rca8.sv|tb_full_adder.sv|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vcla_8bit
+R2
+R3
+!i10b 1
+!s100 =fNknIz=P:99@d7Uc>K@>1
+IF^S?3:VUJ`8j11P=Jd<L[3
+S1
+R0
+w1789875423
+8cla_8bit.sv
+Fcla_8bit.sv
+!i122 1
+L0 1 23
 R4
-n@_opt1
 R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
 R1
 vfull_adder
-Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z7 !s110 1789872768
+R2
+R3
 !i10b 1
 !s100 CbjDPHU4Y<oGiMQo>9d:K0
 IMD_GSDSKFT=MeEzkV;kcY0
 S1
-R1
+R0
 w1789871500
 8full_adder.sv
 Ffull_adder.sv
-!i122 4
+!i122 1
 L0 1 7
-Z8 VDg1SIo80bB@j0V0VzS_@n1
-Z9 OL;L;2021.2_1;73
+R4
+R5
 r1
 !s85 0
 31
-Z10 !s108 1789872768.000000
-!s107 tb_full_adder.sv|full_adder.sv|
-Z11 !s90 full_adder.sv|tb_full_adder.sv|
-!i113 0
-Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R4
-vtb_full_adder
 R6
 R7
-!i10b 1
-!s100 j^J_ol??VgWEIhgR>5Cm^2
-I=KY1ijNGBY?U1XO3V_:2@2
-S1
-R1
-w1789872365
-8tb_full_adder.sv
-Ftb_full_adder.sv
-!i122 4
-L0 2 21
 R8
+!i113 0
 R9
+R1
+vrca_8bit
+R2
+R3
+!i10b 1
+!s100 Z1P8k5l`9zRba7mf9]FU=3
+IKnSm5z0P[oH^MSoiiKC?]1
+S1
+R0
+w1789873756
+8rca8.sv
+Frca8.sv
+!i122 1
+L0 1 22
+R4
+R5
 r1
 !s85 0
 31
-R10
-Z13 !s107 tb_full_adder.sv|full_adder.sv|
-R11
+R6
+R7
+R8
 !i113 0
-R12
+R9
+R1
+vtb_cla_8bit
+R2
+R3
+!i10b 1
+!s100 A_:`lCBbFOf<`[a;JLK;D3
+IFoGG5lln<W>IahQ?9[1Gd0
+S1
+R0
+w1789876390
+8assertion_cla_8bit.sv
+Fassertion_cla_8bit.sv
+!i122 1
+L0 1 35
 R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtb_full_adder
+R2
+R3
+!i10b 1
+!s100 WDE:g6=aH>dnF:1M;H71Z2
+IQWH7[coRT[?U>`AbXoUWG2
+S1
+R0
+w1789873088
+8tb_full_adder.sv
+Ftb_full_adder.sv
+!i122 1
+L0 2 21
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
