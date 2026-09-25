@@ -4,6 +4,9 @@ z2
 Z0 !s99 nomlopt
 R0
 R0
+R0
+R0
+R0
 !s11f vlog 2021.2_1 2021.05, May 15 2021
 13
 !s112 1.1
@@ -13,16 +16,15 @@ R0
 cModel Technology
 Z1 d/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-
 T_opt
-!s110 1789877060
-V8`nmzC=?i]4>nl]P>f8o^2
-04 11 4 work tb_cla_8bit fast 0
-=1-000ae431a4f1-6aaf5b44-6ef30-4718
+!s110 1790303915
+V]IGnVRAI_G1US>dm>zUER0
+04 10 4 work tb_alu8bit fast 0
+=1-000ae431a4f1-6ab5deab-92bd6-44d8
 Z2 !s124 OEM100
 Z3 o-quiet -auto_acc_if_foreign -work work +acc
 Z4 tCvgOpt 0
 n@_opt
 Z5 OL;O;2021.2_1;73
-R1
 T_opt1
 !s110 1790032260
 VDa<GjHQlno5YQ3l:Z7EjE3
@@ -33,9 +35,21 @@ R3
 R4
 n@_opt1
 R5
+R1
+T_opt2
+!s110 1790301581
+V]49SJmcVW_5BMRN2I2cbn3
+04 13 4 work tb_alu_packet fast 0
+=1-000ae431a4f1-6ab5d58c-f0c7c-3115
+R2
+R3
+R4
+n@_opt2
+R5
+R1
 Xadder_packet_sv_unit
 Z6 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
-Z7 !s110 1790032253
+Z7 !s110 1790303910
 V:3Zl50=`4SCOFVkXdnQ]12
 r1
 !s85 0
@@ -48,15 +62,64 @@ R1
 w1790031701
 8adder_packet.sv
 Z8 Fadder_packet.sv
-!i122 7
+!i122 17
 Z9 L0 1 0
 Z10 OL;L;2021.2_1;73
 31
-Z11 !s108 1790032253.000000
-Z12 !s107 tb_full_adder.sv|tb_adder_packet.sv|rca8.sv|full_adder.sv|cla_8bit.sv|cla_4bit.sv|assertion_cla_8bit.sv|adder_packet.sv|
-Z13 !s90 adder_packet.sv|assertion_cla_8bit.sv|cla_4bit.sv|cla_8bit.sv|full_adder.sv|rca8.sv|tb_adder_packet.sv|tb_full_adder.sv|
+Z11 !s108 1790303910.000000
+Z12 !s107 tb_full_adder.sv|tb_alu_packet.sv|tb_alu8bt.sv|tb_adder_packet.sv|rca8.sv|full_adder.sv|cla_8bit.sv|cla_4bit.sv|assertion_cla_8bit.sv|alu_packet.sv|alu_8bit.sv|adder_packet.sv|
+Z13 !s90 adder_packet.sv|alu_8bit.sv|alu_packet.sv|assertion_cla_8bit.sv|cla_4bit.sv|cla_8bit.sv|full_adder.sv|rca8.sv|tb_adder_packet.sv|tb_alu8bt.sv|tb_alu_packet.sv|tb_full_adder.sv|
 !i113 0
 Z14 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R4
+valu_8bit
+R6
+R7
+!i10b 1
+!s100 z3z5JgQLjO]jYMVS314820
+I5oU:UE7fLH1``]k=k46M=0
+S1
+R1
+w1790300822
+8alu_8bit.sv
+Falu_8bit.sv
+!i122 17
+L0 1 58
+Z15 VDg1SIo80bB@j0V0VzS_@n1
+R10
+r1
+!s85 0
+31
+R11
+R12
+R13
+!i113 0
+R14
+R4
+Xalu_packet_sv_unit
+R6
+R7
+V:=7;TnVOWbjUKh<6PjC353
+r1
+!s85 0
+!i10b 1
+!s100 <H<G5F7MUBkaQAClYonU[3
+I:=7;TnVOWbjUKh<6PjC353
+!i103 1
+S1
+R1
+w1790302460
+8alu_packet.sv
+Z16 Falu_packet.sv
+!i122 17
+R9
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
 R4
 vcla_4bit
 R6
@@ -69,9 +132,9 @@ R1
 w1789875289
 8cla_4bit.sv
 Fcla_4bit.sv
-!i122 7
+!i122 17
 L0 1 28
-Z15 VDg1SIo80bB@j0V0VzS_@n1
+R15
 R10
 r1
 !s85 0
@@ -93,7 +156,7 @@ R1
 w1789875423
 8cla_8bit.sv
 Fcla_8bit.sv
-!i122 7
+!i122 17
 L0 1 23
 R15
 R10
@@ -117,7 +180,7 @@ R1
 w1789871500
 8full_adder.sv
 Ffull_adder.sv
-!i122 7
+!i122 17
 L0 1 7
 R15
 R10
@@ -141,7 +204,7 @@ R1
 w1789873756
 8rca8.sv
 Frca8.sv
-!i122 7
+!i122 17
 L0 1 22
 R15
 R10
@@ -167,10 +230,10 @@ I=E5Ee;;bVAAdING]E`dMz3
 !s105 tb_adder_packet_sv_unit
 S1
 R1
-Z16 w1790032218
-Z17 8tb_adder_packet.sv
-Z18 Ftb_adder_packet.sv
-!i122 7
+Z17 w1790032218
+Z18 8tb_adder_packet.sv
+Z19 Ftb_adder_packet.sv
+!i122 17
 L0 2 13
 R10
 31
@@ -192,11 +255,115 @@ I40S=e3>nGgM?^0n85SOD=1
 !i103 1
 S1
 R1
-R16
 R17
 R18
+R19
 R8
-!i122 7
+!i122 17
+R9
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R4
+vtb_alu8bit
+R6
+DXx4 work 17 tb_alu8bt_sv_unit 0 22 ]5fT4`X]7K1FU43J:gOXI1
+R7
+R15
+r1
+!s85 0
+!i10b 1
+!s100 2AL>Q5G@z1Qb_[kQ8OPPo0
+I?2jIg7inB814c>XK[V8iN1
+!s105 tb_alu8bt_sv_unit
+S1
+R1
+Z20 w1790303834
+Z21 8tb_alu8bt.sv
+Z22 Ftb_alu8bt.sv
+!i122 17
+L0 2 41
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R4
+Xtb_alu8bt_sv_unit
+R6
+R7
+V]5fT4`X]7K1FU43J:gOXI1
+r1
+!s85 0
+!i10b 1
+!s100 4>E8eAcVhUmzIf4RkzgDW2
+I]5fT4`X]7K1FU43J:gOXI1
+!i103 1
+S1
+R1
+R20
+R21
+R22
+R16
+!i122 17
+R9
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R4
+vtb_alu_packet
+R6
+DXx4 work 21 tb_alu_packet_sv_unit 0 22 PRD;>gb9MXP;mY6Fo_zQ]3
+R7
+R15
+r1
+!s85 0
+!i10b 1
+!s100 _El<c]9I59hhXM?CaY9Dd1
+IaM3GoKYoZjhM8n]nDXU]50
+!s105 tb_alu_packet_sv_unit
+S1
+R1
+Z23 w1790302579
+Z24 8tb_alu_packet.sv
+Z25 Ftb_alu_packet.sv
+!i122 17
+L0 2 14
+R10
+31
+R11
+R12
+R13
+!i113 0
+R14
+R4
+Xtb_alu_packet_sv_unit
+R6
+R7
+VPRD;>gb9MXP;mY6Fo_zQ]3
+r1
+!s85 0
+!i10b 1
+!s100 [TFmaokgj159?E^@LBz?32
+IPRD;>gb9MXP;mY6Fo_zQ]3
+!i103 1
+S1
+R1
+R23
+R24
+R25
+R16
+!i122 17
 R9
 R10
 31
@@ -217,7 +384,7 @@ R1
 w1789876390
 8assertion_cla_8bit.sv
 Fassertion_cla_8bit.sv
-!i122 7
+!i122 17
 L0 1 35
 R15
 R10
@@ -241,7 +408,7 @@ R1
 w1789873088
 8tb_full_adder.sv
 Ftb_full_adder.sv
-!i122 7
+!i122 17
 L0 2 21
 R15
 R10
