@@ -1,0 +1,7 @@
+{
+    "PDK": "sky130A",
+    "DESIGN_NAME": "alu_8bit",
+    "VERILOG_FILES": "dir::rtl/*.sv",
+    "CLOCK_PORT": "",
+    "CLOCK_PERIOD": 10
+}

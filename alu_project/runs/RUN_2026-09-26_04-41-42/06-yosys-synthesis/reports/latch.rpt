@@ -1,0 +1,3 @@
+
+18. Executing PROC_DLATCH pass (convert process syncs to latches).
+No latch inferred for signal `\alu_8bit.\result' from process `\alu_8bit.$proc$/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/alu_8bit.sv:23$6'.

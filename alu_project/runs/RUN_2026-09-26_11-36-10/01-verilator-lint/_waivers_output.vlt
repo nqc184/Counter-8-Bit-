@@ -1,0 +1,25 @@
+// DESCRIPTION: Verilator output: Waivers generated with --waiver-output
+
+`verilator_config
+
+// Below you find suggested waivers. You have three options:
+//   1. Fix the reason for the linter warning
+//   2. Keep the waiver permanently if you are sure this is okay
+//   3. Keep the waiver temporarily to suppress the output
+
+// lint_off -rule EOFNEWLINE -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/alu_8bit.sv" -match "Missing newline at end of file (POSIX 3.206).*"
+
+// lint_off -rule EOFNEWLINE -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_4bit.sv" -match "Missing newline at end of file (POSIX 3.206).*"
+
+// lint_off -rule EOFNEWLINE -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_8bit.sv" -match "Missing newline at end of file (POSIX 3.206).*"
+
+// lint_off -rule EOFNEWLINE -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/full_adder.sv" -match "Missing newline at end of file (POSIX 3.206).*"
+
+// lint_off -rule DECLFILENAME -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/runs/RUN_2026-09-26_11-36-10/tmp/f12d05788eba4dd6a5f0fc2276dd8099.bb.v" -match "Filename 'f12d05788eba4dd6a5f0fc2276dd8099' does not match MODULE name: 'sky130_ef_sc_hd__decap_12'"
+
+// lint_off -rule UNUSEDSIGNAL -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/alu_8bit.sv" -match "Signal is not used: 'cla_cout'"
+
+// lint_off -rule UNOPTFLAT -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_4bit.sv" -match "Signal unoptimizable: Circular combinational logic: 'alu_8bit.adder_core.high_nibble.c'"
+
+// lint_off -rule UNOPTFLAT -file "*/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_4bit.sv" -match "Signal unoptimizable: Circular combinational logic: 'alu_8bit.adder_core.low_nibble.c'"
+

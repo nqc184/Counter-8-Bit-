@@ -1,0 +1,5 @@
+`verilator_config
+lint_off -rule DECLFILENAME
+lint_off -rule EOFNEWLINE
+lint_off -rule UNDRIVEN -file "/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/runs/RUN_2026-09-26_11-36-10/tmp/f12d05788eba4dd6a5f0fc2276dd8099.bb.v"
+lint_off -rule UNUSEDSIGNAL -file "/home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/runs/RUN_2026-09-26_11-36-10/tmp/f12d05788eba4dd6a5f0fc2276dd8099.bb.v"

@@ -1,0 +1,12 @@
+%Warning-UNUSEDSIGNAL: /home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/alu_8bit.sv:9:11: Signal is not used: 'cla_cout'
+                                                                                                               : ... note: In instance 'alu_8bit'
+    9 |     logic cla_cout;
+      |           ^~~~~~~~
+                       ... For warning description see https://verilator.org/warn/UNUSEDSIGNAL?v=5.020
+                       ... Use "/* verilator lint_off UNUSEDSIGNAL */" and lint_on around source to disable this message.
+%Warning-UNOPTFLAT: /home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_4bit.sv:7:17: Signal unoptimizable: Circular combinational logic: 'alu_8bit.adder_core.high_nibble.c'
+    7 |     logic [4:0] c;
+      |                 ^
+                    /home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_4bit.sv:7:17:      Example path: alu_8bit.adder_core.high_nibble.c
+                    /home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_8bit.sv:7:11:      Example path: ASSIGNW
+                    /home/thaituroblox/Desktop/8_BIT_COUNTER/Counter-8-Bit-/alu_project/rtl/cla_4bit.sv:7:17:      Example path: alu_8bit.adder_core.high_nibble.c
